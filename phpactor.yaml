@@ -1,0 +1,49 @@
+---
+indexer:
+  stub_paths:
+    - '%application_root%/_ide_helper.php'
+    - '%application_root%/_ide_helper_models.php'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/Support/Facades'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/Database/Eloquent'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/Http'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/Routing'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/Foundation'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/Contracts'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/Config'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/Cache'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/Auth'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/Events'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/Bus'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/Queue'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/Filesystem'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/Translation'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/Validation'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/Compilers'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/Engines'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/Factory'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/ViewFinderInterface'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/ViewName'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/ViewInterface'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/ViewEnvironment'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/Engines/EngineResolver'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/Engines/EngineInterface'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerInterface'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/Engines/BladeEngine'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/Engines/EngineResolver'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/Engines/EngineInterface'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerInterface'
+    - '%application_root%/vendor/laravel/framework/src/Illuminate/View/Engines/BladeEngine'
+worse_reflection:
+  stub_dir: '%application_root%/_ide_helper.php'
+autoload:
+  directories: [app, vendor, src]
+class_to_file_autoload: true
+container:
+  class_search:
+    enable_mixins: true
